@@ -1,0 +1,11 @@
+{
+  "name": "elevator-system-simulator",
+  "private": true,
+  "scripts": {
+    "install-all": "npm run install-be && npm run install-fe",
+    "install-be": "cd be && npm install",
+    "install-fe": "cd fe && npm install",
+    "dev:be": "cd be && npm run start:dev",
+    "dev:fe": "cd fe && npm run dev"
+  }
+}
